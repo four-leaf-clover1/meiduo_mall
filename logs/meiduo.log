@@ -10128,3 +10128,43 @@ INFO 2019-08-05 07:45:37,368 basehttp 124 "GET /info/ HTTP/1.1" 200 6085
 INFO 2019-08-05 07:45:37,618 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1240
 INFO 2019-08-05 07:45:39,186 basehttp 124 "GET / HTTP/1.1" 200 124351
 INFO 2019-08-05 07:45:40,397 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+ERROR 2019-08-05 09:25:48,080 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:48,098 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:48,108 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:48,120 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:48,169 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:48,226 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:25:48,461 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 400 70670
+WARNING 2019-08-05 09:25:48,473 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 70659
+WARNING 2019-08-05 09:25:48,497 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 70659
+WARNING 2019-08-05 09:25:48,521 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 70659
+WARNING 2019-08-05 09:25:48,529 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 400 70692
+WARNING 2019-08-05 09:25:48,532 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 400 70714
+ERROR 2019-08-05 09:25:48,535 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:48,554 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:25:48,620 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 400 70714
+WARNING 2019-08-05 09:25:48,621 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 70659
+ERROR 2019-08-05 09:25:57,485 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:57,498 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:57,544 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:57,606 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:57,614 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:57,635 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 09:25:57,792 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:25:57,803 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 400 70692
+WARNING 2019-08-05 09:25:57,831 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 70659
+WARNING 2019-08-05 09:25:57,811 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 400 70669
+WARNING 2019-08-05 09:25:57,843 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 70659
+WARNING 2019-08-05 09:25:57,854 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 400 70714
+ERROR 2019-08-05 09:25:57,857 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:25:57,916 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 70659
+WARNING 2019-08-05 09:25:57,954 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 400 70714
+WARNING 2019-08-05 09:25:57,958 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 70659
+ERROR 2019-08-05 09:28:29,833 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:28:29,897 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 400 70570
+ERROR 2019-08-05 09:28:30,776 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:28:30,838 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 400 70570
+ERROR 2019-08-05 09:28:40,394 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:28:40,437 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 400 70570
+ERROR 2019-08-05 09:28:41,147 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:28:41,184 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 400 70570

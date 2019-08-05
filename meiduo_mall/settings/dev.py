@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     'contents.apps.ContentsConfig', # 首页广告模块
     'goods.apps.GoodsConfig', # 商品模块
     'orders.apps.OrdersConfig', #订单模块
-    'payment.apps.PaymentConfig' #支付模块
+    'payment.apps.PaymentConfig', #支付模块
+    'meiduo_admin.apps.MeiduoAdminConfig',#美多后台
 ]
 
 
