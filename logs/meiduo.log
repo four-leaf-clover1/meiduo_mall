@@ -10168,3 +10168,925 @@ ERROR 2019-08-05 09:28:40,394 exception 80 Invalid HTTP_HOST header: '127.0.0.1:
 WARNING 2019-08-05 09:28:40,437 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 400 70570
 ERROR 2019-08-05 09:28:41,147 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
 WARNING 2019-08-05 09:28:41,184 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 400 70570
+ERROR 2019-08-05 09:58:36,048 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:58:36,135 basehttp 124 "GET / HTTP/1.1" 400 70961
+ERROR 2019-08-05 09:58:37,378 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 09:58:37,470 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 71006
+INFO 2019-08-05 09:59:48,934 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-08-05 10:00:04,313 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-08-05 10:01:01,822 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+ERROR 2019-08-05 10:01:01,927 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 10:01:01,985 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 70959
+INFO 2019-08-05 12:47:26,557 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+ERROR 2019-08-05 12:47:26,620 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 12:47:26,671 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 71544
+ERROR 2019-08-05 12:47:27,782 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 12:47:27,838 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 71544
+ERROR 2019-08-05 12:50:18,255 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 12:50:18,316 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 71544
+ERROR 2019-08-05 12:53:13,780 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 12:53:13,838 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 71544
+ERROR 2019-08-05 12:54:40,901 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 12:54:40,957 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 71571
+INFO 2019-08-05 12:59:49,651 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+ERROR 2019-08-05 12:59:49,702 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 12:59:49,759 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 71566
+INFO 2019-08-05 13:01:57,086 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,100 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,127 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,131 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,145 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,154 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,157 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:01:57,182 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+ERROR 2019-08-05 13:01:57,185 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:01:57,207 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:01:57,254 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:01:57,328 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:01:57,479 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:01:57,536 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:01:57,607 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 71764
+WARNING 2019-08-05 13:01:57,615 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 400 71775
+WARNING 2019-08-05 13:01:57,646 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 400 71820
+ERROR 2019-08-05 13:01:57,666 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:01:57,682 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 400 71797
+WARNING 2019-08-05 13:01:57,713 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 71764
+ERROR 2019-08-05 13:01:57,731 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:01:57,763 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 71764
+WARNING 2019-08-05 13:01:57,789 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 400 71820
+WARNING 2019-08-05 13:01:57,827 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 71764
+ERROR 2019-08-05 13:02:04,320 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:02:04,357 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:02:04,395 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:02:04,433 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 71764
+ERROR 2019-08-05 13:02:04,469 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:02:04,486 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2019-08-05 13:02:04,580 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:02:04,683 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 400 71797
+ERROR 2019-08-05 13:02:04,691 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:02:04,722 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 400 71775
+WARNING 2019-08-05 13:02:04,755 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 400 71765
+WARNING 2019-08-05 13:02:04,782 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 400 71820
+WARNING 2019-08-05 13:02:04,807 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 71764
+ERROR 2019-08-05 13:02:04,812 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-08-05 13:02:04,843 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 400 71819
+WARNING 2019-08-05 13:02:04,861 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 400 71764
+WARNING 2019-08-05 13:05:51,613 base 152 Not Found: /meiduo_admin/authorizations/
+WARNING 2019-08-05 13:05:51,614 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 404 8893
+WARNING 2019-08-05 13:05:52,369 base 152 Not Found: /meiduo_admin/authorizations/
+WARNING 2019-08-05 13:05:52,370 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 404 8893
+WARNING 2019-08-05 13:06:00,350 base 152 Not Found: /meiduo_admin/authorizations/
+WARNING 2019-08-05 13:06:00,350 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 404 8893
+WARNING 2019-08-05 13:06:36,823 base 152 Not Found: /meiduo_admin/authorizations/
+WARNING 2019-08-05 13:06:36,824 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 404 8893
+ERROR 2019-08-05 13:08:48,469 exception 135 Internal Server Error: /meiduo_admin/authorizations/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/login_views.py", line 11, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 437, in run_validation
+    value = self.validate(value)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/serializers/login_serializer.py", line 18, in validate
+    payload = jwt_encode_handler(user)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework_jwt/utils.py", line 95, in jwt_encode_handler
+    api_settings.JWT_ALGORITHM
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/jwt/api_jwt.py", line 49, in encode
+    raise TypeError('Expecting a mapping object, as JWT only supports '
+TypeError: Expecting a mapping object, as JWT only supports JSON objects as payloads.
+ERROR 2019-08-05 13:08:48,498 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 500 19656
+INFO 2019-08-05 13:10:07,595 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,254 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-08-05 13:13:00,489 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,492 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,508 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,510 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,522 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,525 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,549 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-05 13:13:00,554 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-08-05 13:13:00,665 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 13:13:00,675 base 152 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2019-08-05 13:13:00,719 base 152 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2019-08-05 13:13:00,742 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 9097
+WARNING 2019-08-05 13:13:00,766 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 13:13:00,768 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:00,769 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 9103
+WARNING 2019-08-05 13:13:00,785 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:00,808 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-05 13:13:00,809 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9109
+WARNING 2019-08-05 13:13:00,842 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-05 13:13:00,844 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9109
+WARNING 2019-08-05 13:13:00,859 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 13:13:00,884 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:00,888 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 13:13:00,891 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9094
+INFO 2019-08-05 13:13:11,172 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-08-05 13:13:11,222 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-08-05 13:13:11,223 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 9079
+INFO 2019-08-05 13:13:13,681 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-08-05 13:13:13,708 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-08-05 13:13:13,710 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 9066
+INFO 2019-08-05 13:13:15,579 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-08-05 13:13:15,626 base 152 Not Found: /meiduo_admin/orders/
+WARNING 2019-08-05 13:13:15,628 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 9082
+WARNING 2019-08-05 13:13:16,642 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-08-05 13:13:16,645 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 9079
+WARNING 2019-08-05 13:13:17,233 base 152 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2019-08-05 13:13:17,240 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 9097
+WARNING 2019-08-05 13:13:17,244 base 152 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2019-08-05 13:13:17,245 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 9103
+WARNING 2019-08-05 13:13:17,256 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 13:13:17,273 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-05 13:13:17,273 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9109
+WARNING 2019-08-05 13:13:17,280 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:17,285 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 13:13:17,290 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:17,300 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-05 13:13:17,302 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9109
+WARNING 2019-08-05 13:13:17,311 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 13:13:17,312 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:17,324 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 13:13:17,326 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9094
+INFO 2019-08-05 13:13:23,567 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+WARNING 2019-08-05 13:13:23,706 base 152 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2019-08-05 13:13:23,707 base 152 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2019-08-05 13:13:23,721 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 13:13:23,728 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 9097
+WARNING 2019-08-05 13:13:23,732 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:23,733 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 13:13:23,735 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:23,708 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 9103
+WARNING 2019-08-05 13:13:23,755 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-05 13:13:23,757 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9109
+WARNING 2019-08-05 13:13:23,762 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-05 13:13:23,763 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9109
+WARNING 2019-08-05 13:13:23,777 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 13:13:23,788 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9094
+WARNING 2019-08-05 13:13:23,785 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 13:13:23,803 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9094
+INFO 2019-08-05 14:53:01,914 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,919 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,924 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,933 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,950 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,953 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,964 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-05 14:53:01,967 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-08-05 14:53:02,197 base 152 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2019-08-05 14:53:02,211 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-05 14:53:02,240 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9296
+WARNING 2019-08-05 14:53:02,193 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 14:53:02,240 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 9290
+WARNING 2019-08-05 14:53:02,230 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 14:53:02,237 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-05 14:53:02,242 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9281
+WARNING 2019-08-05 14:53:02,242 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9281
+WARNING 2019-08-05 14:53:02,255 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9296
+WARNING 2019-08-05 14:53:02,307 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-05 14:53:02,334 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-05 14:53:02,348 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9281
+INFO 2019-08-05 14:53:02,341 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+WARNING 2019-08-05 14:53:02,377 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9281
+INFO 2019-08-06 07:21:00,329 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,457 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-08-06 07:21:00,796 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,808 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,812 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,816 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,821 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,824 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,829 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:21:00,832 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-08-06 07:21:00,901 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-06 07:21:00,910 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:21:00,909 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-06 07:21:00,912 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:21:00,961 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-06 07:21:00,966 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:21:00,983 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:21:00,994 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:21:00,998 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-06 07:21:01,000 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:21:01,006 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9485
+WARNING 2019-08-06 07:21:01,021 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9485
+INFO 2019-08-06 07:21:01,050 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:21:01,060 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:23:14,512 basehttp 124 "GET / HTTP/1.1" 200 124351
+INFO 2019-08-06 07:23:16,534 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-08-06 07:23:16,669 base 152 Not Found: /favicon.ico
+WARNING 2019-08-06 07:23:16,669 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8961
+INFO 2019-08-06 07:23:19,561 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-08-06 07:23:19,585 basehttp 124 "GET /login/ HTTP/1.1" 200 3765
+INFO 2019-08-06 07:23:19,673 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-08-06 07:23:19,690 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2019-08-06 07:23:19,698 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-08-06 07:23:19,711 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 2255
+INFO 2019-08-06 07:23:19,720 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+WARNING 2019-08-06 07:23:19,769 basehttp 124 "GET /static/images/Weibo.ico HTTP/1.1" 404 1667
+INFO 2019-08-06 07:23:21,914 basehttp 124 "GET /register/ HTTP/1.1" 200 4836
+INFO 2019-08-06 07:23:21,987 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-08-06 07:23:22,018 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2019-08-06 07:23:22,022 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2019-08-06 07:23:22,225 basehttp 124 "GET /image_codes/c41a002a-5aa7-45ac-99f7-dc1f59137f01/ HTTP/1.1" 200 3129
+INFO 2019-08-06 07:23:32,229 basehttp 124 "GET /usernames/xiaohong/count/ HTTP/1.1" 200 41
+INFO 2019-08-06 07:23:59,392 basehttp 124 "GET /mobiles/15979731023/count/ HTTP/1.1" 200 41
+INFO 2019-08-06 07:24:07,744 views 76 311469
+INFO 2019-08-06 07:24:07,827 basehttp 124 "GET /mobiles/15979731023/count/ HTTP/1.1" 200 41
+INFO 2019-08-06 07:24:07,890 basehttp 124 "GET /sms_codes/15979731023/?image_code=prrq&uuid=c41a002a-5aa7-45ac-99f7-dc1f59137f01 HTTP/1.1" 200 29
+INFO 2019-08-06 07:24:21,275 basehttp 124 "GET /mobiles/15979731023/count/ HTTP/1.1" 200 41
+INFO 2019-08-06 07:24:21,278 basehttp 124 "GET /usernames/xiaohong/count/ HTTP/1.1" 200 41
+INFO 2019-08-06 07:24:21,364 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-08-06 07:24:22,027 basehttp 124 "GET / HTTP/1.1" 200 124351
+INFO 2019-08-06 07:24:22,693 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-08-06 07:24:32,422 base 152 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2019-08-06 07:24:32,441 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:24:32,536 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-06 07:24:32,555 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:24:32,548 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:24:32,556 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9485
+WARNING 2019-08-06 07:24:32,558 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:24:32,559 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9485
+WARNING 2019-08-06 07:24:32,574 base 152 Not Found: /meiduo_admin/statistical/day_active/
+INFO 2019-08-06 07:24:32,593 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:24:32,594 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:24:32,617 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:24:32,656 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-06 07:24:32,657 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9470
+WARNING 2019-08-06 07:30:53,072 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:30:53,081 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2019-08-06 07:30:53,101 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9656
+WARNING 2019-08-06 07:30:53,097 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9671
+WARNING 2019-08-06 07:30:53,084 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:30:53,110 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9671
+WARNING 2019-08-06 07:30:53,123 base 152 Not Found: /meiduo_admin/statistical/day_orders/
+INFO 2019-08-06 07:30:53,157 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:30:53,169 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:30:53,172 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:30:53,175 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 9656
+INFO 2019-08-06 07:30:53,199 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:46:11,293 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,300 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,303 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,308 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,313 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,345 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,351 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:46:11,374 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-08-06 07:46:11,466 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:46:11,476 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:46:11,510 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 07:46:11,537 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+ERROR 2019-08-06 07:46:11,572 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+INFO 2019-08-06 07:46:11,584 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:46:11,594 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:46:11,602 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:46:11,705 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+ERROR 2019-08-06 07:46:11,735 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21171
+ERROR 2019-08-06 07:46:11,756 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+ERROR 2019-08-06 07:46:11,795 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21170
+INFO 2019-08-06 07:46:17,585 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-08-06 07:46:18,343 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-08-06 07:46:21,279 basehttp 124 "GET /list/157/1/ HTTP/1.1" 200 100484
+INFO 2019-08-06 07:46:21,745 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-08-06 07:46:21,762 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 471
+INFO 2019-08-06 07:46:23,446 basehttp 124 "GET /detail/1/ HTTP/1.1" 200 107518
+INFO 2019-08-06 07:46:24,050 basehttp 124 "GET /hot/157/ HTTP/1.1" 200 471
+WARNING 2019-08-06 07:46:24,139 base 152 Not Found: /comments/1/
+WARNING 2019-08-06 07:46:24,147 basehttp 124 "GET /comments/1/ HTTP/1.1" 404 8961
+INFO 2019-08-06 07:46:24,187 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-08-06 07:46:24,245 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-08-06 07:46:24,268 basehttp 124 "POST /visit/157/ HTTP/1.1" 200 29
+INFO 2019-08-06 07:46:26,185 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-08-06 07:46:27,543 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 246
+INFO 2019-08-06 07:46:29,469 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-08-06 07:46:30,232 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 246
+INFO 2019-08-06 07:46:33,724 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102721
+INFO 2019-08-06 07:46:34,131 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 246
+INFO 2019-08-06 07:46:34,164 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 538
+INFO 2019-08-06 07:46:36,766 basehttp 124 "GET /detail/7/ HTTP/1.1" 200 105828
+INFO 2019-08-06 07:46:37,178 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 538
+INFO 2019-08-06 07:46:37,235 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-08-06 07:46:37,243 basehttp 124 "POST /visit/115/ HTTP/1.1" 200 29
+WARNING 2019-08-06 07:46:37,272 base 152 Not Found: /comments/7/
+WARNING 2019-08-06 07:46:37,290 basehttp 124 "GET /comments/7/ HTTP/1.1" 404 8961
+INFO 2019-08-06 07:46:37,321 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 246
+INFO 2019-08-06 07:46:38,784 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-08-06 07:46:39,929 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 479
+INFO 2019-08-06 07:46:40,919 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-08-06 07:46:41,809 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 479
+INFO 2019-08-06 07:46:44,580 basehttp 124 "GET /carts/ HTTP/1.1" 200 4891
+INFO 2019-08-06 07:46:46,341 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5975
+INFO 2019-08-06 07:46:51,375 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8422
+INFO 2019-08-06 07:46:51,629 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-08-06 07:47:05,083 basehttp 124 "GET /areas/?area_id=140000 HTTP/1.1" 200 603
+INFO 2019-08-06 07:47:06,089 basehttp 124 "GET /areas/?area_id=140200 HTTP/1.1" 200 591
+INFO 2019-08-06 07:47:20,720 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 396
+INFO 2019-08-06 07:47:24,587 basehttp 124 "GET /carts/ HTTP/1.1" 200 4891
+INFO 2019-08-06 07:47:26,448 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 6298
+INFO 2019-08-06 07:47:29,319 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
+INFO 2019-08-06 07:47:29,391 basehttp 124 "GET /orders/success/?order_id=20190806074729000000006&payment_amount=58938&pay_method=2 HTTP/1.1" 200 3830
+INFO 2019-08-06 07:47:31,338 basehttp 124 "GET /payment/20190806074729000000006/ HTTP/1.1" 200 892
+INFO 2019-08-06 07:47:43,506 basehttp 124 "GET /orders/success/?order_id=20190806074729000000006&payment_amount=58938&pay_method=2 HTTP/1.1" 200 3830
+INFO 2019-08-06 07:47:44,929 basehttp 124 "GET /payment/20190806074729000000006/ HTTP/1.1" 200 892
+INFO 2019-08-06 07:49:23,854 basehttp 124 "GET /payment/status/?charset=utf-8&out_trade_no=20190806074729000000006&method=alipay.trade.page.pay.return&total_amount=58938.00&sign=SkuZZpi1rQ%2FqJUpSe7dIbULmo5Wi%2FThEpw0ljzvoOwu3E5SdNNrRnNUt7mqjNQjZwhfYc5AWH1xzaQy%2BRTVN5%2FyvADFopZeiv5ycutccLaW1YvsIyc83b4HI%2BzBVpKzNfXaxQQCZrzpXIz%2B6wkxyKhxCFoSpR1Pohd8UMKX41vkjs8u0jLqMv9xImFM%2F8E3ODu2hnA%2BBsPoQX9cndoWMQg8dHx%2BuQeU9dysuxZte%2BER9kuTwdQwlP8W7xaXsREjB%2FWtMv3vSLoWJ1RB31zNLob8ghIpu0J8KaFNC2EkPDWk%2FaK3PzA9FcrzrpOfuNZ%2FLY66uF3xGlwWvN9DshrBH3A%3D%3D&trade_no=2019080622001411811000057485&auth_app_id=2016101000651820&version=1.0&app_id=2016101000651820&sign_type=RSA2&seller_id=2088102178909429&timestamp=2019-08-06+15%3A49%3A21 HTTP/1.1" 200 3277
+ERROR 2019-08-06 07:49:28,337 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+INFO 2019-08-06 07:49:28,338 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:49:28,346 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:49:28,365 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:49:28,366 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:49:28,377 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 07:49:28,376 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+INFO 2019-08-06 07:49:28,492 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:49:28,497 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+ERROR 2019-08-06 07:49:28,505 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21171
+ERROR 2019-08-06 07:49:28,526 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+ERROR 2019-08-06 07:49:28,624 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21170
+INFO 2019-08-06 07:49:31,061 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:49:31,069 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:49:31,090 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:49:31,112 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+ERROR 2019-08-06 07:49:31,116 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+WARNING 2019-08-06 07:49:31,117 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 07:49:31,121 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:49:31,174 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+INFO 2019-08-06 07:49:31,235 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+ERROR 2019-08-06 07:49:31,318 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21171
+ERROR 2019-08-06 07:49:31,357 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+ERROR 2019-08-06 07:49:31,416 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21170
+INFO 2019-08-06 07:49:33,322 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:49:33,334 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+INFO 2019-08-06 07:49:33,368 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:49:33,400 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+INFO 2019-08-06 07:49:33,400 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:49:33,402 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 07:49:33,403 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+ERROR 2019-08-06 07:49:33,425 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+INFO 2019-08-06 07:49:33,555 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+ERROR 2019-08-06 07:49:33,591 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21171
+ERROR 2019-08-06 07:49:33,632 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(orderinfo_set__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'orderinfo_set' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+ERROR 2019-08-06 07:49:33,687 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21170
+WARNING 2019-08-06 07:52:44,520 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:52:44,538 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:52:44,552 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 07:52:44,588 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+ERROR 2019-08-06 07:52:44,630 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(user__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+INFO 2019-08-06 07:52:44,631 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:52:44,645 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:52:44,660 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:52:44,766 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+ERROR 2019-08-06 07:52:44,796 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21143
+ERROR 2019-08-06 07:52:44,815 exception 135 Internal Server Error: /meiduo_admin/statistical/day_orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/home_views.py", line 58, in day_orders
+    user_queryset = User.objects.filter(user__create_time__gte=shanghai_0_date)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: addresses, date_joined, default_address, default_address_id, email, email_active, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, orderinfo, password, user_permissions, username
+ERROR 2019-08-06 07:52:44,857 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 500 21143
+INFO 2019-08-06 07:58:09,397 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,413 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,445 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,451 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,458 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,474 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,502 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 07:58:09,509 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-08-06 07:58:09,920 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+INFO 2019-08-06 07:58:09,957 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:58:09,961 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:58:10,005 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+INFO 2019-08-06 07:58:09,981 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:58:09,955 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:58:10,045 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+INFO 2019-08-06 07:58:10,142 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 07:59:24,656 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 07:59:24,669 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 07:59:24,598 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 07:59:24,718 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+INFO 2019-08-06 07:59:24,726 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 07:59:24,801 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+WARNING 2019-08-06 08:00:58,560 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 08:00:58,614 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 08:00:58,631 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+INFO 2019-08-06 08:00:58,639 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:00:58,673 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:00:58,675 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 08:00:58,678 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+INFO 2019-08-06 08:00:58,777 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:35,376 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,386 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,418 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,424 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,456 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,468 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,471 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:11:35,475 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+WARNING 2019-08-06 08:11:35,660 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 08:11:35,705 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 08:11:35,672 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 08:11:35,745 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+INFO 2019-08-06 08:11:35,767 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:35,829 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:35,834 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:35,850 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:35,922 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:36,006 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:39,382 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:39,383 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+WARNING 2019-08-06 08:11:39,443 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2019-08-06 08:11:39,446 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 9857
+WARNING 2019-08-06 08:11:39,472 base 152 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2019-08-06 08:11:39,474 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 9857
+INFO 2019-08-06 08:11:39,489 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:39,508 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:39,567 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:11:39,594 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:22:39,847 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,861 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,865 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,867 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,871 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,875 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,876 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:39,880 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:22:40,325 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:22:40,347 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:22:40,348 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+WARNING 2019-08-06 08:22:40,366 base 152 Not Found: /meiduo_admin/statistical/goods_day_views/
+INFO 2019-08-06 08:22:40,394 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+WARNING 2019-08-06 08:22:40,398 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 10048
+INFO 2019-08-06 08:22:40,477 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:22:40,509 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:22:40,542 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-08-06 08:32:40,058 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,065 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,069 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,075 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,079 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,082 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,085 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,089 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-08-06 08:32:40,245 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:32:40,277 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:32:40,290 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+ERROR 2019-08-06 08:32:40,363 exception 135 Internal Server Error: /meiduo_admin/statistical/goods_day_views/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'method' is not JSON serializable
+INFO 2019-08-06 08:32:40,398 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:32:40,469 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:32:40,578 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 08:32:40,654 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+ERROR 2019-08-06 08:32:40,801 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 500 111025
+INFO 2019-08-06 09:04:37,226 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 117
+INFO 2019-08-06 09:07:32,497 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 167
+INFO 2019-08-06 09:12:58,062 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 68
+INFO 2019-08-06 09:13:37,394 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,457 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 221
+INFO 2019-08-06 09:13:37,619 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,621 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,624 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,630 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,657 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,663 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,669 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,707 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:13:37,791 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:13:37,797 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:13:37,798 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:13:37,849 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:13:37,867 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:13:37,898 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:13:37,908 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 68
+INFO 2019-08-06 09:13:37,993 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-08-06 09:15:36,403 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-08-06 09:15:36,467 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-08-06 09:15:36,478 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10209
+INFO 2019-08-06 09:15:38,417 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:38,441 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:38,458 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:38,516 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:38,601 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 68
+INFO 2019-08-06 09:15:38,633 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:38,645 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-08-06 09:15:38,655 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+WARNING 2019-08-06 09:15:39,196 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-08-06 09:15:39,197 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10209
+INFO 2019-08-06 09:15:44,087 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-08-06 09:15:44,112 base 152 Not Found: /meiduo_admin/orders/
+WARNING 2019-08-06 09:15:44,115 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10212
+INFO 2019-08-06 09:15:46,807 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:15:46,816 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-06 09:15:46,820 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 0
+WARNING 2019-08-06 09:15:46,881 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-08-06 09:15:46,883 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 10230
+WARNING 2019-08-06 09:15:46,893 base 152 Not Found: /meiduo_admin/permission/perms/
+WARNING 2019-08-06 09:15:46,894 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 404 10245
+WARNING 2019-08-06 09:15:46,906 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-08-06 09:15:46,907 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 10230
+WARNING 2019-08-06 09:15:48,259 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-08-06 09:15:48,260 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10209
+INFO 2019-08-06 09:15:53,104 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:53,148 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:53,150 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:53,186 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:53,225 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-08-06 09:15:53,302 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-08-06 09:15:53,329 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 68
+INFO 2019-08-06 09:15:53,331 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+WARNING 2019-08-06 09:15:55,131 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-08-06 09:15:55,131 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10209

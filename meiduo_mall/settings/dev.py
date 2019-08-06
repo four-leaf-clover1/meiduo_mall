@@ -10,7 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
-import os, sys
+import os,sys
+import datetime
 
 # print(sys.path)
 # ['/Users/chao/Desktop/meiduo_28/meiduo_mall/meiduo_mall/apps', '/Users/chao/Desktop/meiduo_28/meiduo_mall', '/Users/chao/.virtualenvs/meiduo_new/lib/python36.zip', '/Users/chao/.virtualenvs/meiduo_new/lib/python3.6', '/Users/chao/.virtualenvs/meiduo_new/lib/python3.6/lib-dynload', '/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/Users/chao/.virtualenvs/meiduo_new/lib/python3.6/site-packages', '/Applications/PyCharm.app/Contents/helpers/pycharm_matplotlib_backend']
@@ -31,7 +32,7 @@ SECRET_KEY = 'x0i2&we_6t_-123_)esb^f4vug%)s%(vd#37rw!&y*jzf9nz@_'
 DEBUG = True  # Django默认就开启的调试模式, Django会提供静态文件访问的支持,如果设置主False Django不再提供静态访问
 
 # 允许那些域名访问Django服务器
-ALLOWED_HOSTS = ['www.meiduo.site']
+ALLOWED_HOSTS = ['www.meiduo.site','*']
 
 # Application definition
 
@@ -43,21 +44,25 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'haystack',#全文检索
+    'haystack',  # 全文检索
+    'rest_framework',
+    'corsheaders',
 
     # 只有当应用中需要定义模型迁移建表及使用了'模板'后才需要注册应用,如果应用中只有视图和路由应用可以注册,也可以不注册
     'users.apps.UsersConfig',  # 用户模块
     'oauth.apps.OauthConfig',  # QQ模块
-    'areas.apps.AreasConfig', # 省市模块
-    'contents.apps.ContentsConfig', # 首页广告模块
-    'goods.apps.GoodsConfig', # 商品模块
-    'orders.apps.OrdersConfig', #订单模块
-    'payment.apps.PaymentConfig', #支付模块
-    'meiduo_admin.apps.MeiduoAdminConfig',#美多后台
+    'areas.apps.AreasConfig',  # 省市模块
+    'contents.apps.ContentsConfig',  # 首页广告模块
+    'goods.apps.GoodsConfig',  # 商品模块
+    'orders.apps.OrdersConfig',  # 订单模块
+    'payment.apps.PaymentConfig',  # 支付模块
+    'meiduo_admin.apps.MeiduoAdminConfig',  # 美多后台
 ]
 
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -289,3 +294,29 @@ ALIPAY_APPID = '2016101000651820'
 ALIPAY_DEBUG = True  # 表示是沙箱环境还是真实支付环境
 ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
 ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
+
+
+CORS_ORIGIN_WHITELIST = (
+    '127.0.0.1:8080',
+    'localhost:8080',
+    'www.meiduo.site:8080',
+    'api.meiduo.site:8000',
+    '127.0.0.1'
+)
+#8080服务器在浏览器中设置cookie
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+
+JWT_AUTH = {
+    #指明token的有效期
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.jwt_response_handlers.customer_jwt_response_handler', # 指明构建响应数据的函数
+}
