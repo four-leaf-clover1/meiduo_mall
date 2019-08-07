@@ -5,6 +5,7 @@ from meiduo_admin.views.login_views import *
 from meiduo_admin.views.home_views import *
 from meiduo_admin.views.user_views import *
 from meiduo_admin.views.sku_views import *
+from meiduo_admin.views.spu_views import *
 
 urlpatterns = [
         url(r'^authorizations/$', LoginView.as_view()),
@@ -20,11 +21,21 @@ urlpatterns = [
         url(r'^users/$',UserAPIView.as_view()),
 
         url(r'^skus/$', SKUViewSet.as_view({"get": "list", "post": "create"})),
-        url(r'^skus/(?P<pk>\d+)/$', SKUViewSet.as_view({"get": "retrieve","put":"update","delete":"destroy"})),
+        url(r'^skus/(?P<pk>\d+)/$', SKUViewSet.as_view({"get": "retrieve",
+                                                        "put":"update",
+                                                        "delete":"destroy"})),
 
         url(r'^skus/categories/$', SKUCategoryView.as_view()),
         url(r'^goods/simple/$', SPUCategoryView.as_view()),
         url(r'^goods/(?P<pk>\d+)/specs/$', SPUSpecView.as_view()),
+
+        url(r'^goods/$', SPUViewSet.as_view({"get":"list","post":"create"})),
+        url(r'^goods/(?P<pk>\d+)/$', SPUViewSet.as_view({"get":"retrieve",
+                                                         "put":"update",
+                                                         "delete":"destroy"})),
+        url(r'^goods/brands/simple/$', BreadViewSet.as_view()),
+        url(r'^goods/channel/categories/$', ChannelCategoryView.as_view()),
+        url(r'^goods/channel/categories/(?P<pk>\d+)/$', ChannelCategoryView.as_view()),
 
 ]
 
