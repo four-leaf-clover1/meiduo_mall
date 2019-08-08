@@ -8,6 +8,8 @@ from meiduo_admin.views.sku_views import *
 from meiduo_admin.views.spu_views import *
 from meiduo_admin.views.spec_views import *
 from meiduo_admin.views.option_views import *
+from meiduo_admin.views.image_views import *
+from meiduo_admin.views.channel_views import *
 
 urlpatterns = [
         url(r'^authorizations/$', LoginView.as_view()),
@@ -49,5 +51,18 @@ urlpatterns = [
                                                                 "put":"update",
                                                                 "delete":"destroy"})),
         url(r'^goods/specs/simple/$',OptionSimple.as_view()),
+
+        url(r'^skus/images/$',ImagesView.as_view({"get":"list","post":"create"})),
+        url(r'^skus/images/(?P<pk>\d+)/$',ImagesView.as_view({"get":"retrieve",
+                                                              "put":"update",
+                                                              "delete":"destroy"})),
+        url(r'^skus/simple/$',SKUSimpleView.as_view()),
+
+        url(r'^goods/channels/$', ChannelView.as_view({"get": "list","post":"create"})),
+        url(r'^goods/channels/(?P<pk>\d+)/$', ChannelView.as_view({"get": "retrieve",
+                                                                   "put":"update",
+                                                                   "delete":"destroy"})),
+        url(r'^goods/categories/$', CategoriesView.as_view()),
+
 ]
 
