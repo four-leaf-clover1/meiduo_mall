@@ -17373,3 +17373,234 @@ WARNING 2019-08-09 07:20:22,309 base 152 Not Found: /meiduo_admin/permission/per
 WARNING 2019-08-09 07:20:22,323 base 152 Not Found: /meiduo_admin/permission/content_types/
 WARNING 2019-08-09 07:20:22,324 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 14806
 WARNING 2019-08-09 07:20:22,330 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 404 14821
+INFO 2019-08-09 07:31:56,615 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:31:56,617 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:31:56,630 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 0
+WARNING 2019-08-09 07:31:58,006 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-08-09 07:31:58,206 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 14986
+INFO 2019-08-09 07:31:58,556 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+WARNING 2019-08-09 07:31:58,804 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-08-09 07:31:58,804 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 14986
+INFO 2019-08-09 07:32:56,132 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=8&pagesize=10&ordering=id HTTP/1.1" 200 0
+INFO 2019-08-09 07:32:56,356 basehttp 124 "GET /meiduo_admin/permission/perms/?page=8&pagesize=10&ordering=id HTTP/1.1" 200 465
+INFO 2019-08-09 07:32:57,872 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=3&pagesize=10&ordering=id HTTP/1.1" 200 0
+INFO 2019-08-09 07:32:57,973 basehttp 124 "GET /meiduo_admin/permission/perms/?page=3&pagesize=10&ordering=id HTTP/1.1" 200 942
+INFO 2019-08-09 07:33:01,550 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=5&pagesize=10&ordering=id HTTP/1.1" 200 0
+INFO 2019-08-09 07:33:01,608 basehttp 124 "GET /meiduo_admin/permission/perms/?page=5&pagesize=10&ordering=id HTTP/1.1" 200 966
+INFO 2019-08-09 07:33:03,372 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+ERROR 2019-08-09 07:41:24,624 exception 135 Internal Server Error: /meiduo_admin/permission/content_types/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1097, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the ContentTypeSerializer serializer.",)
+INFO 2019-08-09 07:41:24,704 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+ERROR 2019-08-09 07:41:25,662 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 500 21498
+ERROR 2019-08-09 07:41:26,093 exception 135 Internal Server Error: /meiduo_admin/permission/content_types/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1097, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the ContentTypeSerializer serializer.",)
+ERROR 2019-08-09 07:41:26,254 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 500 21498
+INFO 2019-08-09 07:44:00,385 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:44:00,388 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:44:00,392 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 0
+ERROR 2019-08-09 07:44:00,881 exception 135 Internal Server Error: /meiduo_admin/permission/content_types/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1097, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the ContentTypeSerializer serializer.",)
+INFO 2019-08-09 07:44:00,904 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+ERROR 2019-08-09 07:44:01,098 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 500 21498
+ERROR 2019-08-09 07:44:01,129 exception 135 Internal Server Error: /meiduo_admin/permission/content_types/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1097, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the ContentTypeSerializer serializer.",)
+ERROR 2019-08-09 07:44:01,212 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 500 21498
+INFO 2019-08-09 07:45:38,980 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:45:39,053 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 789
+INFO 2019-08-09 07:45:39,118 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 789
+INFO 2019-08-09 07:47:32,556 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 789
+INFO 2019-08-09 07:47:32,561 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:47:32,597 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 789
+INFO 2019-08-09 07:48:20,252 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:48:20,488 basehttp 124 "POST /meiduo_admin/permission/perms/ HTTP/1.1" 201 65
+INFO 2019-08-09 07:48:20,591 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:48:23,571 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=8&pagesize=10&ordering=id HTTP/1.1" 200 0
+INFO 2019-08-09 07:48:23,653 basehttp 124 "GET /meiduo_admin/permission/perms/?page=8&pagesize=10&ordering=id HTTP/1.1" 200 531
+INFO 2019-08-09 07:48:25,462 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/76/ HTTP/1.1" 200 0
+WARNING 2019-08-09 07:48:25,592 basehttp 124 "GET /meiduo_admin/permission/perms/76/ HTTP/1.1" 405 40
+INFO 2019-08-09 07:48:32,559 basehttp 124 "DELETE /meiduo_admin/permission/perms/76/ HTTP/1.1" 204 0
+INFO 2019-08-09 07:48:32,644 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:49:44,956 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:49:44,979 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 789
+INFO 2019-08-09 07:49:45,058 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 789
+INFO 2019-08-09 07:50:06,578 basehttp 124 "POST /meiduo_admin/permission/perms/ HTTP/1.1" 201 65
+INFO 2019-08-09 07:50:06,725 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:50:09,068 basehttp 124 "GET /meiduo_admin/permission/perms/?page=8&pagesize=10&ordering=id HTTP/1.1" 200 531
+INFO 2019-08-09 07:50:10,379 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/77/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:50:10,520 basehttp 124 "GET /meiduo_admin/permission/perms/77/ HTTP/1.1" 200 65
+INFO 2019-08-09 07:50:19,397 basehttp 124 "PUT /meiduo_admin/permission/perms/77/ HTTP/1.1" 200 68
+INFO 2019-08-09 07:50:19,493 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 857
+INFO 2019-08-09 07:50:21,754 basehttp 124 "GET /meiduo_admin/permission/perms/?page=8&pagesize=10&ordering=id HTTP/1.1" 200 534
+INFO 2019-08-09 07:50:25,739 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:50:25,799 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:50:25,844 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-08-09 07:50:25,874 base 152 Not Found: /meiduo_admin/permission/groups/
+WARNING 2019-08-09 07:50:25,876 basehttp 124 "GET /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 404 15374
+WARNING 2019-08-09 07:50:25,880 base 152 Not Found: /meiduo_admin/permission/simple/
+WARNING 2019-08-09 07:50:25,881 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15351
+WARNING 2019-08-09 07:50:25,993 base 152 Not Found: /meiduo_admin/permission/simple/
+WARNING 2019-08-09 07:50:25,994 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15351

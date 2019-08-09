@@ -11,6 +11,7 @@ from meiduo_admin.views.option_views import *
 from meiduo_admin.views.image_views import *
 from meiduo_admin.views.channel_views import *
 from meiduo_admin.views.order_views import *
+from meiduo_admin.views.perm_views import *
 
 urlpatterns = [
         url(r'^authorizations/$', LoginView.as_view()),
@@ -69,5 +70,12 @@ urlpatterns = [
         url(r'^orders/(?P<pk>\d+)/$', OrderInfoView.as_view({"get":"retrieve","patch":"partial_update"})),
         url(r'^orders/(?P<pk>\d+)/status/$', OrderInfoView.as_view({"patch":"partial_update"})),
 
+        #用户权限
+        url(r'^permission/perms/$',PermissionView.as_view({"get":"list","post":"create"})),
+        url(r'^permission/perms/(?P<pk>\d+)/$',PermissionView.as_view({"delete":"destroy",
+                                                                       "put":"update",
+                                                                       "get":"retrieve"})),
+
+        url(r'^permission/content_types/$',ContentTypeView.as_view())
 ]
 
