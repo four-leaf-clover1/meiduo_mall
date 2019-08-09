@@ -10,6 +10,7 @@ from meiduo_admin.views.spec_views import *
 from meiduo_admin.views.option_views import *
 from meiduo_admin.views.image_views import *
 from meiduo_admin.views.channel_views import *
+from meiduo_admin.views.order_views import *
 
 urlpatterns = [
         url(r'^authorizations/$', LoginView.as_view()),
@@ -63,6 +64,10 @@ urlpatterns = [
                                                                    "put":"update",
                                                                    "delete":"destroy"})),
         url(r'^goods/categories/$', CategoriesView.as_view()),
+
+        url(r'^orders/$', OrderInfoView.as_view({"get":"list"})),
+        url(r'^orders/(?P<pk>\d+)/$', OrderInfoView.as_view({"get":"retrieve","patch":"partial_update"})),
+        url(r'^orders/(?P<pk>\d+)/status/$', OrderInfoView.as_view({"patch":"partial_update"})),
 
 ]
 

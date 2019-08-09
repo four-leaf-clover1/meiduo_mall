@@ -16909,3 +16909,467 @@ INFO 2019-08-08 11:27:47,491 basehttp 124 "GET /meiduo_admin/skus/images/?pagesi
 INFO 2019-08-08 11:27:52,684 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 270
 INFO 2019-08-08 11:27:57,822 basehttp 124 "DELETE /meiduo_admin/skus/images/46/ HTTP/1.1" 204 0
 INFO 2019-08-08 11:27:58,098 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1112
+INFO 2019-08-08 11:46:16,054 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+ERROR 2019-08-08 11:46:16,332 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/order_views.py", line 15, in get_queryset
+    keyword = self.request.query_params("keyword")
+TypeError: 'QueryDict' object is not callable
+ERROR 2019-08-08 11:46:16,624 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 19282
+INFO 2019-08-08 11:46:19,926 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:19,931 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:19,936 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:19,941 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:19,945 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:20,176 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-08-08 11:46:20,207 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 12997
+INFO 2019-08-08 11:46:20,369 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6542
+INFO 2019-08-08 11:46:20,449 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-08-08 11:46:20,484 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 12997
+INFO 2019-08-08 11:46:22,838 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:22,842 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:22,854 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-08-08 11:46:22,937 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1518
+INFO 2019-08-08 11:46:22,949 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1112
+INFO 2019-08-08 11:46:22,999 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1518
+ERROR 2019-08-08 11:46:24,539 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/apps/meiduo_admin/views/order_views.py", line 15, in get_queryset
+    keyword = self.request.query_params("keyword")
+TypeError: 'QueryDict' object is not callable
+ERROR 2019-08-08 11:46:24,595 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 19282
+INFO 2019-08-08 11:47:20,453 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 721
+INFO 2019-08-08 11:47:39,523 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword=201908 HTTP/1.1" 200 0
+INFO 2019-08-08 11:47:39,667 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword=201908 HTTP/1.1" 200 223
+INFO 2019-08-08 11:47:43,732 basehttp 124 "OPTIONS /meiduo_admin/orders/20190805074340000000001/ HTTP/1.1" 200 0
+WARNING 2019-08-08 11:47:43,755 base 152 Not Found: /meiduo_admin/orders/20190805074340000000001/
+WARNING 2019-08-08 11:47:43,759 basehttp 124 "GET /meiduo_admin/orders/20190805074340000000001/ HTTP/1.1" 404 14441
+INFO 2019-08-08 11:47:46,894 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 721
+INFO 2019-08-08 11:53:51,166 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 721
+INFO 2019-08-08 11:53:53,918 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 721
+INFO 2019-08-08 11:54:14,963 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 1916
+INFO 2019-08-08 11:54:18,265 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 1916
+INFO 2019-08-08 11:54:22,447 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 1916
+INFO 2019-08-08 11:54:30,982 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 1916
+INFO 2019-08-08 12:03:44,433 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+ERROR 2019-08-08 12:03:44,821 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SKU' object is not iterable
+ERROR 2019-08-08 12:03:44,956 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 20865
+ERROR 2019-08-08 12:03:47,575 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SKU' object is not iterable
+ERROR 2019-08-08 12:03:47,834 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 20865
+ERROR 2019-08-08 12:05:37,174 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SKU' object is not iterable
+ERROR 2019-08-08 12:05:37,327 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 20865
+ERROR 2019-08-08 12:05:39,679 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SKU' object is not iterable
+ERROR 2019-08-08 12:05:39,757 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 20865
+ERROR 2019-08-08 12:10:27,535 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SKU' object is not iterable
+ERROR 2019-08-08 12:10:27,946 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 20865
+ERROR 2019-08-08 12:11:38,600 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1045, in get_fields
+    source, info, model, depth
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1190, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1302, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `default_image_url` is not valid for model `SKU`.
+ERROR 2019-08-08 12:11:38,876 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 22015
+ERROR 2019-08-08 12:11:42,396 exception 135 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1045, in get_fields
+    source, info, model, depth
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1190, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/python/.virtualenvs/BeautyMarket/lib/python3.6/site-packages/rest_framework/serializers.py", line 1302, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `default_image_url` is not valid for model `SKU`.
+ERROR 2019-08-08 12:11:42,550 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 22015
+INFO 2019-08-08 12:13:35,585 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3463
+INFO 2019-08-08 12:13:39,951 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 0
+INFO 2019-08-08 12:13:40,090 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 651
+INFO 2019-08-08 12:14:04,934 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-08-08 12:14:05,102 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3463
+INFO 2019-08-08 12:16:07,804 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-08 12:16:18,435 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-08 12:47:21,176 basehttp 124 "OPTIONS /meiduo_admin/orders/undefined/ HTTP/1.1" 200 0
+WARNING 2019-08-08 12:47:21,347 base 152 Not Found: /meiduo_admin/orders/undefined/
+WARNING 2019-08-08 12:47:21,354 basehttp 124 "GET /meiduo_admin/orders/undefined/ HTTP/1.1" 404 14788
+INFO 2019-08-08 12:47:26,706 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-08-08 12:47:27,282 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-08 12:47:29,627 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 0
+INFO 2019-08-08 12:47:29,754 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-08 12:47:34,429 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 200 0
+WARNING 2019-08-08 12:47:34,519 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:48:14,747 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:48:32,391 base 152 Not Found: /meiduo_admin/orders/undefined/
+WARNING 2019-08-08 12:48:32,398 basehttp 124 "GET /meiduo_admin/orders/undefined/ HTTP/1.1" 404 14788
+INFO 2019-08-08 12:48:42,013 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-08 12:48:45,667 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+WARNING 2019-08-08 12:48:54,861 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:48:55,673 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:48:55,824 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:48:56,211 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+INFO 2019-08-08 12:52:16,749 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-08 12:52:22,000 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+WARNING 2019-08-08 12:52:27,031 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:52:28,308 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+INFO 2019-08-08 12:53:23,989 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-08 12:53:27,717 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+WARNING 2019-08-08 12:53:31,949 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 12:53:33,392 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+INFO 2019-08-08 13:01:33,406 basehttp 124 "OPTIONS /meiduo_admin/orders/undefined/ HTTP/1.1" 200 0
+WARNING 2019-08-08 13:01:33,603 base 152 Not Found: /meiduo_admin/orders/undefined/
+WARNING 2019-08-08 13:01:33,614 basehttp 124 "GET /meiduo_admin/orders/undefined/ HTTP/1.1" 404 14788
+INFO 2019-08-08 13:01:36,347 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-08-08 13:01:36,898 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-08 13:01:40,471 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 0
+INFO 2019-08-08 13:01:40,882 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-08 13:01:46,594 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 200 0
+WARNING 2019-08-08 13:01:46,749 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 13:01:47,244 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 13:01:47,407 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 13:01:47,676 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 13:01:47,827 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+WARNING 2019-08-08 13:01:47,924 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 405 42
+INFO 2019-08-09 07:15:08,579 basehttp 124 "OPTIONS /meiduo_admin/orders/undefined/ HTTP/1.1" 200 0
+WARNING 2019-08-09 07:15:09,539 base 152 Not Found: /meiduo_admin/orders/undefined/
+WARNING 2019-08-09 07:15:09,542 basehttp 124 "GET /meiduo_admin/orders/undefined/ HTTP/1.1" 404 14587
+INFO 2019-08-09 07:15:13,229 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-08-09 07:15:13,958 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-09 07:15:15,799 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:15:15,921 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:15:26,351 basehttp 124 "OPTIONS /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 200 0
+WARNING 2019-08-09 07:15:26,399 base 152 Not Found: /meiduo_admin/orders/20190726052218000000001/status/
+WARNING 2019-08-09 07:15:26,407 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 404 14652
+WARNING 2019-08-09 07:17:15,439 base 152 Not Found: /meiduo_admin/orders/undefined/
+WARNING 2019-08-09 07:17:15,447 basehttp 124 "GET /meiduo_admin/orders/undefined/ HTTP/1.1" 404 14782
+INFO 2019-08-09 07:17:34,346 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-09 07:17:35,717 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:17:39,845 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:17:40,025 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:17:47,731 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:17:47,857 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:17:52,119 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-09 07:17:53,998 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:18:02,449 basehttp 124 "PATCH /meiduo_admin/orders/20190726052218000000001/status/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:18:02,569 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:18:04,980 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-09 07:18:06,150 basehttp 124 "GET /meiduo_admin/orders/20190726052218000000001/ HTTP/1.1" 200 634
+INFO 2019-08-09 07:18:08,290 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 3327
+INFO 2019-08-09 07:20:22,209 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:20:22,239 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-08-09 07:20:22,241 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 0
+WARNING 2019-08-09 07:20:22,263 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-08-09 07:20:22,266 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 14806
+WARNING 2019-08-09 07:20:22,309 base 152 Not Found: /meiduo_admin/permission/perms/
+WARNING 2019-08-09 07:20:22,323 base 152 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2019-08-09 07:20:22,324 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 14806
+WARNING 2019-08-09 07:20:22,330 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 404 14821
