@@ -13,6 +13,7 @@ from meiduo_admin.views.channel_views import *
 from meiduo_admin.views.order_views import *
 from meiduo_admin.views.perm_views import *
 from meiduo_admin.views.group_view import *
+from meiduo_admin.views.admin_views import *
 
 urlpatterns = [
         url(r'^authorizations/$', LoginView.as_view()),
@@ -81,9 +82,16 @@ urlpatterns = [
 
         #用户组
         url(r'^permission/groups/$',GroupView.as_view({"get":"list","post":"create"})),
-        url(r'^permission/simple/$',GroupSimpleView.as_view()),
+        url(r'^permission/simple/$',PermSimpleView.as_view()),
         url(r'^permission/groups/(?P<pk>\d+)/$',GroupView.as_view({"get":"retrieve",
                                                                    "put":"update",
-                                                                   "delete":"destroy"}))
+                                                                "delete":"destroy"})),
+
+        url(r'^permission/admins/$', AdminView.as_view({"get": "list", "post": "create"})),
+        url(r'^permission/admins/(?P<pk>\d+)/$', AdminView.as_view({"get": "retrieve",
+                                                                    "put": "update",
+                                                                    "delete":"destroy"})),
+        url(r'^permission/groups/simple/$', GroupSimpleView.as_view()),
+
 ]
 

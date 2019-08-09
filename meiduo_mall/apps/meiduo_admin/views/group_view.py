@@ -14,7 +14,7 @@ class GroupView(ModelViewSet):
     pagination_class = MyPage
 
 
-class GroupSimpleView(ListAPIView):
+class PermSimpleView(ListAPIView):
     """用户列表"""
     queryset = Permission.objects.all()
     serializer_class = PermissionSerializer
